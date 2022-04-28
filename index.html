@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="shortcut icon" type="image/png" href="list.png" />
+  <link rel="stylesheet" href="style.css">
+  <title>GROCERY</title>
+</head>
+<body>
+
+  <main>
+    <header>
+      <div class="container">
+        <div id="header">
+          <h2><i class="fas fa-clipboard-check"></i> GROCERY LIST</h2>
+          <div class="user_input" id="show">
+          <input type="text" id="input" placeholder="Add items"><button id="add_item">Enter</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <section>
+      <div class="container">
+        <div id="grocery_list"></div>
+        <div>
+        <button id="plus" onclick="addText()"><i class="fas fa-solid fa-plus"></i></button>
+        </div>
+      </div>
+    </section>
+  </main>  
+  <script src="script.js">
+  </script>
+</body>
+
+</html>
